@@ -39,7 +39,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             style: TextStyle(
                                 color: Theme.of(context).cardColor,
                                 fontSize: 25,
-                                fontWeight: FontWeight.w900),
+                                fontWeight: FontWeight.w100),
                           ),
                           Row(
                             children: [
@@ -49,7 +49,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                   style: TextStyle(
                                       color: Theme.of(context).cardColor,
                                       fontSize: 15,
-                                      fontWeight: FontWeight.w900))
+                                      fontWeight: FontWeight.w100))
                             ],
                           )
                         ],
@@ -71,8 +71,7 @@ class _HomeScreenState extends State<HomeScreen> {
               fit: FlexFit.tight,
               flex: 2,
               child: Container(
-                  decoration: const BoxDecoration(
-                      color: Color.fromRGBO(196, 225, 246, 1)),
+                  decoration: const BoxDecoration(color: Colors.white38),
                   margin: const EdgeInsets.all(5),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -88,7 +87,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               const Text(
                                 'Inside',
                                 style: TextStyle(
-                                    fontSize: 16, fontWeight: FontWeight.w900),
+                                    fontSize: 16, fontWeight: FontWeight.w100),
                               ),
                               const SizedBox(
                                 height: 10,
@@ -112,7 +111,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                         style: TextStyle(
                                             color: Colors.white,
                                             fontSize: 20,
-                                            fontWeight: FontWeight.w300),
+                                            fontWeight: FontWeight.w100),
                                       )
                                     ],
                                   ),
@@ -140,7 +139,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                         style: TextStyle(
                                             color: Colors.white,
                                             fontSize: 20,
-                                            fontWeight: FontWeight.w300),
+                                            fontWeight: FontWeight.w100),
                                       )
                                     ],
                                   ),
@@ -168,7 +167,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                         style: TextStyle(
                                             color: Colors.white,
                                             fontSize: 20,
-                                            fontWeight: FontWeight.w300),
+                                            fontWeight: FontWeight.w100),
                                       )
                                     ],
                                   ),
@@ -196,7 +195,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                         style: TextStyle(
                                             color: Colors.white,
                                             fontSize: 20,
-                                            fontWeight: FontWeight.w300),
+                                            fontWeight: FontWeight.w100),
                                       )
                                     ],
                                   ),
@@ -216,7 +215,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               const Text(
                                 'Outside',
                                 style: TextStyle(
-                                    fontSize: 16, fontWeight: FontWeight.w900),
+                                    fontSize: 16, fontWeight: FontWeight.w100),
                               ),
                               const SizedBox(
                                 height: 10,
@@ -240,7 +239,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                         style: TextStyle(
                                             color: Colors.white,
                                             fontSize: 20,
-                                            fontWeight: FontWeight.w300),
+                                            fontWeight: FontWeight.w100),
                                       )
                                     ],
                                   ),
@@ -268,7 +267,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                         style: TextStyle(
                                             color: Colors.white,
                                             fontSize: 20,
-                                            fontWeight: FontWeight.w300),
+                                            fontWeight: FontWeight.w100),
                                       )
                                     ],
                                   ),
@@ -296,7 +295,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                         style: TextStyle(
                                             color: Colors.white,
                                             fontSize: 20,
-                                            fontWeight: FontWeight.w300),
+                                            fontWeight: FontWeight.w100),
                                       )
                                     ],
                                   ),
@@ -316,7 +315,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               const Text(
                                 'Local',
                                 style: TextStyle(
-                                    fontSize: 16, fontWeight: FontWeight.w900),
+                                    fontSize: 16, fontWeight: FontWeight.w100),
                               ),
                               const SizedBox(
                                 height: 10,
@@ -340,7 +339,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                         style: TextStyle(
                                             color: Colors.white,
                                             fontSize: 20,
-                                            fontWeight: FontWeight.w300),
+                                            fontWeight: FontWeight.w100),
                                       )
                                     ],
                                   ),
@@ -368,7 +367,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                         style: TextStyle(
                                             color: Colors.white,
                                             fontSize: 20,
-                                            fontWeight: FontWeight.w300),
+                                            fontWeight: FontWeight.w100),
                                       )
                                     ],
                                   ),
@@ -385,8 +384,7 @@ class _HomeScreenState extends State<HomeScreen> {
               fit: FlexFit.tight,
               flex: 2,
               child: Container(
-                  decoration: const BoxDecoration(
-                      color: Color.fromRGBO(250, 222, 235, 1)),
+                  decoration: const BoxDecoration(color: Colors.white),
                   margin: const EdgeInsets.all(10),
                   child: GridView.count(
                     mainAxisSpacing: 2,
@@ -409,7 +407,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   margin: const EdgeInsets.all(5),
                   width: 400,
                   decoration: const BoxDecoration(
-                    color: Color.fromRGBO(245, 150, 161, 1),
+                    color: Colors.white38,
                   ),
                   child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -429,12 +427,12 @@ class _HomeScreenState extends State<HomeScreen> {
                                       style: const TextStyle(
                                           fontSize: 16,
                                           color: Color.fromRGBO(99, 99, 99, 1),
-                                          fontWeight: FontWeight.w900),
+                                          fontWeight: FontWeight.w100),
                                     ),
                                   ))
                               .toList(),
                           onChanged: (value) {},
-                          dropdownColor: const Color.fromRGBO(245, 150, 161, 1),
+                          dropdownColor: Colors.white,
                         ),
                         Container(
                           margin: const EdgeInsets.all(10),
@@ -477,7 +475,8 @@ class ActuatorButton extends StatelessWidget {
               actuatorText,
               style: const TextStyle(
                   fontSize: 16,
-                  fontWeight: FontWeight.bold,
+                  fontFamily: 'NotoSansKR',
+                  fontWeight: FontWeight.w100,
                   color: Color.fromRGBO(99, 99, 99, 1)),
             ),
             Switch(

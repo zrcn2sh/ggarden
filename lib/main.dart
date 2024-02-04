@@ -13,6 +13,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(
           backgroundColor: Colors.white30,
+          fontFamily: 'NotoSansKR',
           textTheme: const TextTheme(
             headline1: TextStyle(
               color: Color.fromRGBO(147, 174, 193, 1),
