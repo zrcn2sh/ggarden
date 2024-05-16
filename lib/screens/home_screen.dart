@@ -415,7 +415,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         DropdownButton(
                           value: '  Garden Cam 1',
                           items: const [
-                            '  Garden Cam',
+                            '  Garden Cam 1',
                             '  Garden Cam 2',
                             '  Outside 1'
                           ]
