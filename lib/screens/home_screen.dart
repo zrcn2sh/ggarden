@@ -38,7 +38,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             'Site #1',
                             style: TextStyle(
                                 color: Theme.of(context).cardColor,
-                                fontSize: 25,
+                                fontSize: 40,
                                 fontWeight: FontWeight.w100),
                           ),
                           Row(

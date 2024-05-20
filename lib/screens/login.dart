@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ggarden/screens/home_screen.dart';
+import 'package:ggarden/screens/main_home.dart';
 
 class Login extends StatefulWidget {
   const Login({super.key});
@@ -50,7 +50,8 @@ class _Login extends State<Login> {
                         context,
                         MaterialPageRoute(
                             builder: (BuildContext context) =>
-                                const HomeScreen()));
+                                const MainHomeScreen()));
+                    // const HomeScreen()));
                   }
                 },
                 style: ElevatedButton.styleFrom(

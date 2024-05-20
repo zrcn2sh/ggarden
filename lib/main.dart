@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ggarden/screens/login.dart';
+//import 'package:ggarden/screens/login.dart';
+import 'package:ggarden/screens/main_home.dart';
 
 void main() {
   runApp(const App());
@@ -20,7 +21,7 @@ class App extends StatelessWidget {
             ),
           ),
           cardColor: const Color.fromRGBO(99, 99, 99, 1)),
-      home: const Login(),
+      home: const MainHomeScreen(),
     );
   }
 }
